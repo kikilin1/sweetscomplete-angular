@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <base href="/sweetscomplete-angular/"/>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+    <!-- vendor: bootstra stylesheets -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+
+<link rel="stylesheet" href="/sweetscomplete-angular/css/main.css">
+
+</head>
+    <body ng-app="tutorialWebApp">
+        <div id="wrapper">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div ng-include='"templates/header.html"'></div>
+   <div ng-view></div>
+    <div ng-include='"templates/footer.html"'></div>
+            </div>
+    <!--vendor javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--vendor angular followed by our custom javascripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
+
+    <!--our javascript-->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
